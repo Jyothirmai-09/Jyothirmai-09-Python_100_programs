@@ -1,0 +1,12 @@
+n=int(input("Enter number of elements: "))
+lst=[]
+for i in range(n):
+    lst.append(int(input()))
+k=int(input("Enter rotations: "))
+k=k%n
+res=[]
+for i in range(k,n):
+    res.append(lst[i])
+for i in range(k):
+    res.append(lst[i])
+print(res)
