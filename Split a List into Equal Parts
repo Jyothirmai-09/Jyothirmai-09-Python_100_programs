@@ -1,0 +1,5 @@
+print("Enter list:")
+arr=list(map(int, input().split()))
+mid=len(arr) // 2
+print("First part:",arr[:mid])
+print("Second part:",arr[mid:])
