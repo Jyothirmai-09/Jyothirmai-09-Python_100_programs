@@ -1,0 +1,8 @@
+print("Enter dictionary:")
+d=eval(input())
+result={}
+for k,v in d.items():
+    if v not in result.values():
+        result[k]=v
+print("Dictionary after removing duplicate values:")
+print(result)
