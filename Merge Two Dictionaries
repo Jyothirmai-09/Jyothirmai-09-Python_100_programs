@@ -1,0 +1,5 @@
+print("Enter first dictionary:")
+a=eval(input())
+print("Enter second dictionary:")
+b=eval(input())
+print("Merged Dictionary:",a|b)
