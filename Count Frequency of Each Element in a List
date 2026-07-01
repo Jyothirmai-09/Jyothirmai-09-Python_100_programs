@@ -1,0 +1,11 @@
+print("Enter Array List:")
+a=list(map(int, input().split()))
+freq_char={}
+for i in a:
+    if i in freq_char:
+        freq_char[i]=freq_char[i]+1
+    else:
+        freq_char[i]=1
+print("Frequency of elements:")
+for ch in freq_char:
+    print(ch, ":", freq_char[ch])
