@@ -1,0 +1,6 @@
+s=input("Enter a string: ")
+res=""
+for i in s:
+    if i!=" ":
+        res=res+i
+print("String without spaces:",res)
