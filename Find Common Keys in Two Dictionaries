@@ -1,0 +1,8 @@
+print("Enter first dictionary:")
+d1=eval(input())
+print("Enter second dictionary:")
+d2=eval(input())
+print("Common keys:")
+for i in d1:
+    if i in d2:
+        print(i)
