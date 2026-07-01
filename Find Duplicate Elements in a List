@@ -1,0 +1,7 @@
+print("Enter list:")
+arr=list(map(int,input().split()))
+dup=[]
+for i in arr:
+    if arr.count(i)>1 and i not in dup:
+        dup.append(i)
+print("Duplicate elements:",dup)
