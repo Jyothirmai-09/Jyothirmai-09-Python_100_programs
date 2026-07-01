@@ -1,0 +1,6 @@
+print("Enter dictionary:")
+d=eval(input())
+inv={}
+for k,v in d.items():
+    inv[v]=k
+print("Inverted Dictionary:",inv)
