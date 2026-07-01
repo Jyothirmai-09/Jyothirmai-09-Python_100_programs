@@ -1,0 +1,3 @@
+print("Enter string")
+st=input()
+print("Title Case: ",st.title())
