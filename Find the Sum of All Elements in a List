@@ -1,0 +1,8 @@
+n=int(input("Enter number of elements: "))
+lst=[]
+sum=0
+for i in range(n):
+    x=int(input())
+    lst.append(x)
+    sum=sum+x
+print("Sum =",sum)
