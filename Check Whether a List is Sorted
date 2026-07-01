@@ -1,0 +1,6 @@
+print("Enter String")
+st=input()
+if st=="".join(sorted(st)):
+    print("Sorted")
+else:
+    print("Not Sorted")
