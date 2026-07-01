@@ -1,0 +1,7 @@
+print("Enter list:")
+nums=list(map(int,input().split()))
+size=len(nums)+1
+total=(size*(size+1))//2
+current=sum(nums)
+missing=total-current
+print("Missing number:",missing)
