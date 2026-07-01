@@ -1,0 +1,10 @@
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+x=a
+y=b
+while y!=0:
+    t=y
+    y=x%y
+    x=t
+lcm=(a*b)//x
+print("LCM =",lcm)
