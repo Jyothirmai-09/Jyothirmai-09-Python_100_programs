@@ -1,0 +1,8 @@
+print("Enter string")
+st=input()
+words=st.split()
+longest=words[0]
+for i in words:
+    if len(i)>len(longest):
+        longest=i
+print("Longest Word: ", longest)
