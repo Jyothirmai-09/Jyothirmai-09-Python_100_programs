@@ -1,0 +1,4 @@
+print("Enter dictionary:")
+a=eval(input())
+b=dict(sorted(a.items(),key=lambda x:x[1]))
+print("Sorted dictionary:",b)
