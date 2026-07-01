@@ -1,0 +1,10 @@
+s=input("Enter a string: ")
+flag=1
+for i in s:
+    if i<'0' or i>'9':
+        flag=0
+        break
+if flag==1:
+    print("Contains only digits")
+else:
+    print("Does not contain only digits")
