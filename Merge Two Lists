@@ -1,0 +1,14 @@
+n1=int(input("Enter size of first list: "))
+list1=[]
+for i in range(n1):
+    list1.append(int(input()))
+n2=int(input("Enter size of second list: "))
+list2=[]
+for i in range(n2):
+    list2.append(int(input()))
+res=[]
+for i in list1:
+    res.append(i)
+for i in list2:
+    res.append(i)
+print(res)
