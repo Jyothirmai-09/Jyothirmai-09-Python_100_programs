@@ -1,0 +1,7 @@
+a=eval(input())
+b=eval(input())
+r=[]
+for i in a:
+    if i in b and i not in r:
+        r.append(i)
+print(r)
