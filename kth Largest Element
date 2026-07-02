@@ -1,0 +1,4 @@
+a=eval(input())
+k=int(input())
+a.sort(reverse=True)
+print(a[k-1])
