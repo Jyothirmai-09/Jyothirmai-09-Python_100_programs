@@ -1,4 +1,4 @@
-# Jyothirmai-09-Python_100_programs
+# Python_100_programs
 # 🐍 100 Python Programs
 
 A collection of **100 Python programs** covering fundamental programming concepts, patterns, strings, lists, searching, sorting, dictionaries, functions, and basic data structures. This repository is designed for **beginners, students, lab practicals, and interview preparation**.
