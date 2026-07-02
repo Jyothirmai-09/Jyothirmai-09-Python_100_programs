@@ -1,0 +1,7 @@
+import string
+s=input()
+r=""
+for i in s:
+    if i not in string.punctuation:
+        r+=i
+print(r)
